@@ -42,6 +42,39 @@ let length = newFunction(inputStr);
 console.log(length);
 
 // 6
+let userAnswer = promt("What day is today")
+let corrent = "friday";
+let lowercaseAnswer = userAnswer.toLowerCase();
+
+if (lowercaseAnswer = corrent){
+  console.log("სწორია");
+} else {
+  console.log("არასწორია");
+}
+
+
+// 7
+
+let link = "https://google.com";
+function http(element) {
+ let item = element.indexOf("https:")  
+
+ if (item == -1){
+  console.log("არასწორია");
+ } else {
+  console.log("სწორია");
+ }
+}
+
+http(link);
+
+// 8
+let fruits = ["apple", "mango", "avocado", "kiwi"];
+
+fruits.splice(fruits.length - 1, 1, "strawberry");
+
+console.log(fruits);
+
 
 // 9
 let array3 = [5, 25, 89, 120, 36];
@@ -58,7 +91,28 @@ array4.pop(0,1)
 
 console.log(array4);
 
-// 10
+// 10 (es davaleba momecona)
+ let arrayFructs = ["orange", "banana", "pear"];
+ console.log(arrayFructs.length);
+
+ arrayFructs.push("apple", "paneapple");
+ console.log(arrayFructs);
+
+arrayFructs.unshift("watermelow");
+console.log(arrayFructs);
+
+console.log(arrayFructs.length);
+
+arrayFructs.splice(3, 0, "Mango");
+console.log(arrayFructs);
+
+arrayFructs.shift(0,0);
+console.log(arrayFructs);
+
+arrayFructs.pop(0,1)
+console.log(arrayFructs);
+
+console.log(arrayFructs.length);
 
 // 11
 let array5 =[1, 2, 3, 4, 5]
