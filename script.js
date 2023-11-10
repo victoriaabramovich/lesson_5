@@ -1,5 +1,13 @@
 // 1
+let string = '12345';
+let arrayNew = string.split('');
+let sum = 0;
 
+arrayNew.forEach(function(number) {
+  sum += parseInt(number);
+});
+
+console.log(sum);
 
 // 2 ?
 let array1 = [“hello1”, 14,24, “hello2”];
@@ -32,6 +40,8 @@ function newFunction( inputString) {
 let inputStr = "Good day";
 let length = newFunction(inputStr);
 console.log(length);
+
+// 6
 
 // 9
 let array3 = [5, 25, 89, 120, 36];
